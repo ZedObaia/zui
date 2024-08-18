@@ -1,0 +1,38 @@
+{
+  "name": "zui",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "dist/style.css"
+  ],
+  "main": "./dist/zui.umd.cjs",
+  "module": "./dist/zui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/zui.js",
+      "require": "./dist/zui.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build:css": "tailwindcss -i src/style.css -o dist/style.css",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && npm run build:css",
+    "types": "vue-tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "primevue": "^4.0.4",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
