@@ -1,7 +1,7 @@
 {
   "name": "@zedobaia/zui",
   "description": "A Vue 3 UI library wrapping primevue components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist",
