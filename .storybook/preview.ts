@@ -1,5 +1,6 @@
 // .storybook/preview.ts
 import '../src/output.css';
+import '../src/style.css';
 import type { Preview } from '@storybook/vue3';
 import { setup } from '@storybook/vue3';
 import PrimeVue from 'primevue/config';
