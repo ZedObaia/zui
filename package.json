@@ -1,7 +1,7 @@
 {
   "name": "@zedobaia/zui",
   "description": "A Vue 3 UI library wrapping primevue components",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist",
@@ -50,6 +50,6 @@
     "tailwindcss": "^3.4.10",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
-    "vue-tsc": "^1.4.2"
+    "vue-tsc": "^2.0.29"
   }
 }
